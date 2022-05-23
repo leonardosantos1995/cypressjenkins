@@ -30,5 +30,5 @@ test_async:
 test_db:
   script:
     - npm install
-    - node ./specs/start.js ./specs/db-postgres.spec.js
+    - npm i cypress --save-dev
     - npx cypress run
