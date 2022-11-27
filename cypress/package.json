@@ -6,7 +6,7 @@
   "scripts": {
     "cy:open": "cypress open ",
     "cy:run": "npx cypress run",
-    "cy:01": "npx cypress run"
+    "cy:01": "npx cypress run --spec cypress/e2e/1-getting-started/todo.cy.js"
   },
   "author": "leo",
   "license": "ISC",
