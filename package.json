@@ -4,11 +4,15 @@
   "description": "primeiro projeto com cypress",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open "
+    "cy:open": "cypress open",
+    "cy:run": "npx cypress run",
+    "cy:01": "npx cypress run"
   },
   "author": "leo",
   "license": "ISC",
+  "numTestsKeptInMemory": 0,
   "devDependencies": {
-    "cypress": "^9.6.1"
+    "cypress": "^11.2.0",
+    "cypress-iframe": "^1.0.1"
   }
 }
