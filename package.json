@@ -4,7 +4,7 @@
   "description": "primeiro projeto com cypress",
   "main": "index.js",
   "scripts": {
-    "cy:open": "cypress open",
+    "cy:open": "cypress open ",
     "cy:run": "npx cypress run",
     "cy:01": "npx cypress run"
   },
